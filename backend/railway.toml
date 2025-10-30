@@ -1,0 +1,9 @@
+# Railway will automatically detect this as a Node.js project
+# No complex configuration needed - Railway handles it automatically
+
+# Environment variables to set in Railway dashboard:
+# NODE_ENV=production
+# SUPABASE_URL=your_supabase_url
+# SUPABASE_ANON_KEY=your_supabase_key  
+# JWT_SECRET=your_jwt_secret_64_chars
+# PORT=8080
