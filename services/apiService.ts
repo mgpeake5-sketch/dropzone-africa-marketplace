@@ -3,7 +3,7 @@ import { Product, User, UserRole, Order, CartItem, ProductStatus } from '../type
 import { calculateFinalPrice } from '../utils/pricing';
 
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://api.dropzone-africa.com/api'  // Your production backend URL
+  ? 'https://api.dropzone-africa.com/api'
   : 'http://localhost:8080/api';
 
 export const apiService = {
